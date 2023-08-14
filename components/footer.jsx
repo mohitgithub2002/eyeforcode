@@ -1,29 +1,30 @@
+import Image from "next/image"
 export const Footer = () => {
     return(
         
-        <footer class="w-full bg-black pb-4">
-        <div class="md:px-12 lg:px-28">
-          <div class="container m-auto space-y-6 text-gray-300">
-            <img src="/logo3.svg" alt="logo eyeforcode" class="m-auto w-40" />
+        <footer className="w-full bg-black pb-4">
+        <div className="md:px-12 lg:px-28">
+          <div className="container m-auto space-y-6 text-gray-300">
+            <Image src="/logo3.svg" alt="logo eyeforcode" className="m-auto " width={100} height={100}  />
             <ul
               role="list"
-              class="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
+              className="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
             >
-              <li role="listitem"><a href="#" class="hover:text-primary">Home</a></li>
-              <li role="listitem"><a href="#" class="hover:text-primary">Features</a></li>
-              <li role="listitem"><a href="#" class="hover:text-primary">Get started</a></li>
-              <li role="listitem"><a href="/about" class="hover:text-primary">About us</a></li>
+              <li role="listitem"><a href="#" className="hover:text-primary">Home</a></li>
+              <li role="listitem"><a href="#" className="hover:text-primary">Features</a></li>
+              <li role="listitem"><a href="#" className="hover:text-primary">Get started</a></li>
+              <li role="listitem"><a href="/about" className="hover:text-primary">About us</a></li>
             </ul>
-            <div class="m-auto flex w-max items-center justify-between space-x-4">
+            <div className="m-auto flex w-max items-center justify-between space-x-4">
               <a href="tel:+917976439975" aria-label="call">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
-                  class="m-auto w-5"
+                  className="m-auto w-5"
                   viewBox="0 0 16 16"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
                   ></path>
                 </svg>
@@ -32,7 +33,7 @@ export const Footer = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
-                  class="m-auto w-5"
+                  className="m-auto w-5"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -44,7 +45,7 @@ export const Footer = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
-                  class="m-auto w-5"
+                  className="m-auto w-5"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -56,7 +57,7 @@ export const Footer = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
-                  class="m-auto w-5"
+                  className="m-auto w-5"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -66,8 +67,8 @@ export const Footer = () => {
               </a>
             </div>
       
-            <div class="text-center">
-              <span class="text-sm tracking-wide"
+            <div className="text-center">
+              <span className="text-sm tracking-wide"
                 >Copyright © tailus <span id="year"></span> | All right reserved</span
               >
             </div>

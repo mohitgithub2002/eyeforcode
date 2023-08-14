@@ -36,7 +36,7 @@ export const Feature = () => {
             you become member ?
           </h2>
           <p className="text-base text-white md:text-lg">
-          Feeling stuck in the same ol' coding routine? We've got something that's about to shake things up – say hello to Eye For Code!
+          Feeling stuck in the same ol' coding routine? We've got something that's about to shake things up - say hello to Eye For Code!
           </p>
         </div>
         <div className="grid max-w-screen-lg mx-auto space-y-6 lg:grid-cols-2 lg:space-y-0 lg:divide-x">
@@ -201,7 +201,7 @@ export const Feature = () => {
                   A slice of heaven
                 </h6>
                 <p className="text-sm text-gray-900">
-                Don't just code – code with purpose
+                Don't just code - code with purpose
                 </p>
               </div>
             </div>

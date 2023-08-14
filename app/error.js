@@ -43,7 +43,7 @@ export default function Error() {
     </h1>
 
     <p className="mt-4 text-gray-500 dark:text-gray-400">
-      We can't find that page.
+      We can't find the page you're looking for.
     </p>
   </div>
 </div>

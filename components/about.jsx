@@ -1,16 +1,17 @@
+import Image from "next/image"
 export const About = () => {
     return (
         
         <div className="py-16">
         <div className="xl:container m-auto  text-gray-600 ">
-          <div className="lg:bg-purple-100 dark:lg:bg-darker lg:p-16  space-y-6 md:flex md:gap-6 justify-center md:space-y-0 lg:items-center">
+          <div className="bg-purple-100  lg:p-16  space-y-6 md:flex md:gap-6 justify-center md:space-y-0 lg:items-center">
             <div className="md:5/12 lg:w-1/2">
-              <img
+              <Image
                 src="/logo3.svg"
                 alt="image"
                 loading="lazy"
-                width=""
-                height=""
+                width={500}
+                height={500}
               />
             </div>
             <div className="md:7/12 lg:w-1/2">
