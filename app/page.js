@@ -6,15 +6,15 @@ import { Footer } from '@/components/footer'
 export default function Home() {
   return (
   <main>
-    <section className=" dark:bg-black h-screen  dark:text-gray-100 flex items-center justify-center">
+    <section className=" bg-black h-screen text-gray-100 flex items-center justify-center">
     <div
     className="mx-auto max-w-screen-xl px-4 py-28 lg:flex lg:h-screen lg:items-center"
     >
     <div className="mx-auto max-w-3xl text-center">
       <h1
-        className=" text-6xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text  font-extrabold text-transparent sm:text-7xl"
+        className=" text-6xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text  font-extrabold text-transparent sm:text-8xl"
       >
-        A Community of Passionate Developers.
+        Become a part of developer ecosystem.
 
       </h1>
 
